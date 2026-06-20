@@ -1,3 +1,11 @@
+export default function sitemap() {
+  const base = 'http://nambiardistrict25sarjapur.co.in'
+
+  return [
+    {
+      url: base + '/',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
       priority: 1.0,
     },
     {

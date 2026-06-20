@@ -198,7 +198,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
           <div style={{ padding: '24px 28px', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
             <div>
               <p style={{ color: '#555', fontFamily: F_SANS, lineHeight: 1.85, fontSize: '14px', margin: '0 0 14px', textAlign: 'justify' }}>
-                Nambiar District 25 is an exquisite 210 Acres Integrated Township offering premium 2 & 3 BHK luxury apartments. The Phase 3 launch features 8 magnificent towers, meticulously designed to offer expansive living spaces, indoor-outdoor integration, and improved daylight penetration for an unparalleled lifestyle.
+                Nambiar Builders, headquartered in Bangalore, is renowned for delivering premium residential projects that harmonize luxury with sustainability. With a commitment to quality and innovation, they have established a strong presence in the real estate sector, creating communities that offer a balanced and fulfilling lifestyle.
               </p>
             </div>
 

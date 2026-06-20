@@ -6,43 +6,39 @@ const F_SANS = 'var(--font-sans), Open Sans, sans-serif'
 
 const locationCategories = [
   {
-    category: 'Offices',
+    category: 'Strategic Connectivity',
     items: [
-      { name: 'Amazon', dist: '5 min' },
-      { name: 'Waverock', dist: '5 min' },
-      { name: 'Google', dist: '5 min' },
-      { name: 'Wipro', dist: '5 min' },
-      { name: 'Nvidia', dist: '5 min' },
+      { name: 'Upcoming Muthanallur Metro Station', dist: '500m' },
+      { name: 'Bellandur, ITPL & Electronic City', dist: 'Easy Access' },
+      { name: 'Narayana Health & Int. Schools', dist: 'Minutes away' },
+      { name: 'Cisco, Siemens, Biocon, Infosys', dist: 'Close proximity' },
     ],
   },
   {
-    category: 'Transport',
+    category: 'IT Hubs',
     items: [
-      { name: 'ORR', dist: '2 min' },
-      { name: 'Wipro SEZ', dist: '5 min' },
-      { name: 'Neopolis SEZ', dist: '7 min' },
-      { name: 'HItech City', dist: '20 min' },
-      { name: 'Airport', dist: '30 min' },
+      { name: 'Market Square Mall', dist: '25 Mins*' },
+      { name: 'Decathlon Sarjapur', dist: '20 Mins*' },
+      { name: 'Forum Mall, Koramangala', dist: '40 Mins*' },
+      { name: 'Central Mall Bellandur', dist: '35 Mins*' },
     ],
   },
   {
-    category: 'Schools & Hospitals',
+    category: 'Schools & Institutes',
     items: [
-      { name: 'Continental Hospital', dist: '5 min' },
-      { name: 'Apollo Hospital', dist: '5 min' },
-      { name: 'Global Edge', dist: '10 min' },
-      { name: 'Phoneix International', dist: '15 min' },
-      { name: 'Rock Well', dist: '15 min' },
-      { name: 'Oakridge', dist: '15 min' },
+      { name: 'Indus International School', dist: '15 Mins*' },
+      { name: 'Oakridge International School', dist: '25 Mins*' },
+      { name: 'Greenwood High', dist: '20 Mins*' },
+      { name: 'Delhi Public School, Sarjapur', dist: '15 Mins*' },
     ],
   },
   {
     category: 'Entertainment',
     items: [
-      { name: 'Flip Side', dist: '5 min' },
-      { name: 'Flairmont Mall (coming soon)', dist: '5 min' },
-      { name: 'Atrium Mall', dist: '10 min' },
-      { name: 'IKEA', dist: '15 min' },
+      { name: 'RMZ Ecoworld', dist: '30 Mins*' },
+      { name: 'Wipro SEZ', dist: '25 Mins*' },
+      { name: 'RGA Tech Park', dist: '20 Mins*' },
+      { name: 'Embassy Tech Village', dist: '30 Mins*' },
     ],
   },
 ]
@@ -152,7 +148,7 @@ const Location = () => {
               background: '#EAE5DC'
             }}>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3137.808981151933!2d78.3434901!3d17.411310200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb956ba3779d37%3A0xd7d473a8fb3453d2!2sNambiar%20District%2025!5e1!3m2!1sen!2sin!4v1781929461770!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3205.8079563803417!2d77.7348603!3d12.874824600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6d510cf3e5fb%3A0x7a89913d6859b87b!2sNambiar%20District%2025!5e1!3m2!1sen!2sin!4v1781953582707!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: '420px', display: 'block' }}
@@ -174,7 +170,7 @@ const Location = () => {
                   color: '#fff', fontSize: '11px', fontFamily: F_JOST,
                   fontWeight: '700', letterSpacing: '0.04em'
                 }}>
-                  Financial District, South Hyderabad
+                  Off Sarjapur Road, Bengaluru
                 </span>
               </div>
             </div>

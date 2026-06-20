@@ -25,10 +25,10 @@ const CurvedCorners = ({ bg = '#fff' }) => {
 }
 
 const infoItems = [
-  { label: 'LAND PARCEL',   value: '210 Acres' },
+  { label: 'LAND PARCEL',   value: '63+ Acres' },
   { label: 'CLUBHOUSE',    value: '7 Acres' },
   { label: 'TOWERS',        value: '8 Towers (Phase 3)' },
-  { label: 'GREENERY',        value: '20% (3500+ Trees)' },
+  { label: 'GREENERY',        value: '40% (3500+ Trees)' },
 ]
 
 const Overview = ({ setIsOpen }) => (
@@ -69,7 +69,7 @@ const Overview = ({ setIsOpen }) => (
             marginTop: 0, marginBottom: '20px',
             textAlign: 'justify',
           }}>
-            Nambiar District 25 is a 210 Acres Integrated Township offering premium 2 & 3 BHK luxury apartments. The Phase 3 launch features 8 magnificent towers, meticulously designed to offer expansive living spaces, indoor-outdoor integration, and improved daylight penetration for an unparalleled lifestyle.
+            Nambiar District 25 is an integrated township designed to redefine modern living in Bengaluru. Offering a blend of luxury, sustainability, and connectivity, the project spans over 63+ acres, featuring a sprawling green space that covers more than 40% of the site, with 3500+ native trees carefully planted to honour Bengaluru's natural beauty.
           </p>
           <p style={{
             fontFamily: F_SANS, fontSize: '14.5px', color: '#4A4540',
@@ -77,7 +77,7 @@ const Overview = ({ setIsOpen }) => (
             marginTop: 0, marginBottom: '32px',
             textAlign: 'justify',
           }}>
-            Set against the vibrant backdrop off Sarjapur Road, Nambiar District 25 redefines contemporary luxury by seamlessly blending architectural brilliance with serene natural surroundings. With a 7 Acres state-of-the-art clubhouse and 20% greenery featuring over 3500 trees, every residence is meticulously crafted to offer unparalleled privacy and world-class amenities designed for the discerning few.
+            This community provides a unique living experience with villa-style skyrise residences, ensuring privacy and comfort.
           </p>
 
           {/* Info Box */}

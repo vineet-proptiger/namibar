@@ -1,6 +1,6 @@
 const stats = [
   { value: '2',    label: 'Configuration Types' },
-  { value: '₹2.83Cr', label: 'Starting Price' },
+  { value: '₹1.5Cr*', label: 'Starting Price' },
   { value: 'TS RERA', label: 'Registered Project' },
   { value: '2028', label: 'Expected Possession' },
 ]

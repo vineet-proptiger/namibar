@@ -1,8 +1,7 @@
 'use client'
 import React from 'react'
 import {
-  ShoppingCart, Landmark, BedDouble, Activity,
-  Dumbbell, Target, Waves, Layout
+  Dumbbell, Target, Waves, Gamepad2, Footprints, Landmark
 } from 'lucide-react'
 
 const F_JOST = 'var(--font-jost), Montserrat, sans-serif'
@@ -22,14 +21,12 @@ const CurvedCorners = ({ bg = '#fff', color = '#e5e7eb' }) => {
 }
 
 const newAmenities = [
-  { icon: ShoppingCart, title: 'SUPER MARKET',          desc: 'A well-stocked in-house super market for all your daily needs.' },
-  { icon: Landmark,     title: 'BANQUET HALL',          desc: 'An elegantly designed banquet hall perfect for community events and celebrations.' },
-  { icon: BedDouble,    title: '5 NO. GUEST ROOMS',     desc: 'Comfortable and fully furnished guest rooms for your visitors and extended family.' },
-  { icon: Activity,     title: '2 BADMINTON COURTS',    desc: 'Spacious indoor badminton courts for active sports, fitness, and recreation.' },
-  { icon: Dumbbell,     title: 'GYMNASIUM',             desc: 'A state-of-the-art fully equipped gymnasium for a premium workout experience.' },
-  { icon: Target,       title: 'SQUASH COURT',          desc: 'A dedicated squash court for sports enthusiasts and professional players.' },
-  { icon: Waves,        title: 'TERRACE SWIMMING POOL', desc: 'A stunning terrace pool offering breathtaking views and a refreshing escape.' },
-  { icon: Layout,       title: 'MULTIPURPOSE DECK',     desc: 'A versatile multipurpose deck designed for various outdoor activities and gatherings.' },
+  { icon: Dumbbell,     title: 'GYM AREA',          desc: 'Stay fit while enjoying breathtaking views at our elevated gym, designed to inspire and energize your workouts.' },
+  { icon: Target,       title: 'OUTDOOR GAMES',     desc: 'Unleash your energy with exciting outdoor games in a vibrant, open space designed for fun and fitness.' },
+  { icon: Waves,        title: 'SWIMMING AREA',     desc: 'Dive into luxury at our stunning swimming pool, designed for relaxation and rejuvenation.' },
+  { icon: Gamepad2,     title: 'INDOOR GAMES',      desc: 'Experience endless entertainment with a variety of indoor games in a vibrant and well-equipped space.' },
+  { icon: Footprints,   title: 'JOGGING TRACK',     desc: 'Rejuvenate your mind and body on our scenic jogging track, surrounded by lush greenery.' },
+  { icon: Landmark,     title: 'CLUB HOUSE',        desc: 'Your Gateway to Relaxation, Socializing, and More' },
 ]
 
 const Amenities = () => {
@@ -59,7 +56,7 @@ const Amenities = () => {
         }}>
           <CurvedCorners color="#e5e7eb" bg="#fff" />
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[1px] bg-[#e5e7eb]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[1px] bg-[#e5e7eb]">
             {newAmenities.map((item, idx) => (
               <div key={idx} className="bg-white flex flex-col items-center group" style={{
                 padding: '48px 24px',

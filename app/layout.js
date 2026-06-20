@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <GoogleTagManager gtmId="GTM-575H8R87" />
-      <head>
+      {/* <head>
         <Script
           id="json-ld-article"
           type="application/ld+json"
@@ -73,7 +73,7 @@ export default function RootLayout({ children }) {
             })
           }}
         />
-      </head>
+      </head> */}
       <body className={`${openSans.variable} ${montserrat.variable} ${cormorant.variable} ${nephilm.variable} font-sans text-dark antialiased`}>
         <Script id="gtag-init" strategy="beforeInteractive">
           {`window.dataLayer = window.dataLayer || [];

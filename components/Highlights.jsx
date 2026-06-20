@@ -117,14 +117,14 @@ const IconWaves = () => (
 )
 
 const highlights = [
-  { title: 'BUSINESS LOUNGE', desc: 'A sophisticated space designed for professional meetings and remote work.', Icon: IconBuilding },
-  { title: 'MULTIPURPOSE HALL', desc: 'An elegantly designed hall perfect for community events and social gatherings.', Icon: IconSunCloud },
-  { title: 'CAFE', desc: 'A cozy cafe to relax, socialize, and enjoy your favorite beverages.', Icon: IconHome },
-  { title: 'YOGA STUDIO', desc: 'A serene studio offering a peaceful environment for mindfulness and meditation.', Icon: IconSmart },
-  { title: 'JOGGING TRACK', desc: 'A well-paved track set amidst lush greenery for your daily run or walk.', Icon: IconTrees },
-  { title: 'OUTDOOR GYM', desc: 'A fully equipped open-air gymnasium for fitness enthusiasts.', Icon: IconWaves },
-  { title: 'INDOOR GAMES', desc: 'A dedicated zone featuring various indoor games for recreation and fun.', Icon: IconLightning },
-  { title: 'AMPHITHEATRE', desc: 'An open-air venue designed for cultural performances and community entertainment.', Icon: IconMountain },
+  { title: '63+ ACRE TOWNSHIP', desc: 'Sprawling integrated township off Sarjapur Road offering a holistic living experience.', Icon: IconHome },
+  { title: '7-ACRE CLUBHOUSE', desc: 'An expansive clubhouse featuring world-class recreational, fitness, and social amenities.', Icon: IconBuilding },
+  { title: '40% GREEN OPEN SPACES', desc: 'Enjoy lush green surroundings with over 3,500 native trees for a serene environment.', Icon: IconTrees },
+  { title: 'VILLA-STYLE SKYRISES', desc: 'Premium 2, 2.5, 3 & 4 BHK residences offering unparalleled privacy and comfort.', Icon: IconMountain },
+  { title: 'STRATEGIC LOCATION', desc: 'Excellent connectivity to Wipro SEZ, RGA Tech Park, top schools, and entertainment.', Icon: IconSmart },
+  { title: 'SWIMMING AREA', desc: 'A stunning resort-style pool designed for ultimate relaxation and rejuvenation.', Icon: IconWaves },
+  { title: 'SPORTS & FITNESS', desc: 'State-of-the-art gym, jogging track, and dedicated zones for indoor & outdoor games.', Icon: IconLightning },
+  { title: 'SUSTAINABLE LIVING', desc: 'Modern design blending luxury with sustainability for a balanced, fulfilling lifestyle.', Icon: IconSunCloud },
 ]
 
 const Highlights = ({ setIsOpen }) => (

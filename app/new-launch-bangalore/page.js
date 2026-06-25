@@ -47,7 +47,7 @@ export default function Home() {
       {/* <PaymentPlan setIsOpen={setIsOpen} /> */}
       <AboutDeveloper setIsOpen={setIsOpen} />
       {/* <VirtualTour setIsOpen={setIsOpen} /> */}
-      <QuickChat />
+      {/* <QuickChat /> */}
       <Footer />
       <EnquireModal isOpen={isOpen} setIsOpen={setIsOpen} />
 

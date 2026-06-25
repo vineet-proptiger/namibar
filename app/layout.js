@@ -33,8 +33,8 @@ const nephilm = localFont({
 })
 
 export const metadata = {
-  title: 'Nambiar District 25 | 2 & 3 BHK Luxury Apartments off Sarjapur Road',
-  description: "Nambiar District 25 — A 210 Acres Integrated Township off Sarjapur Road. Premium 2 & 3 BHK luxury apartments with a 7 Acres clubhouse and 20% greenery. Designed for those who demand the extraordinary. MAHARERA: TBD.",
+  title: 'Nambiar District 25 | 2, 3 & 4 BHK Luxury Apartments off Sarjapur Road',
+  description: "Nambiar District 25 — A 210 Acres Integrated Township off Sarjapur Road. Premium 2, 3 & 4 BHK luxury apartments with a 7 Acres clubhouse and 20% greenery. Designed for those who demand the extraordinary. MAHARERA: TBD.",
 }
 
 export default function RootLayout({ children }) {
@@ -53,8 +53,8 @@ export default function RootLayout({ children }) {
                 "@type": "WebPage",
                 "@id": "https://prestigepalmcourtmahalaxmi.in/"
               },
-              "headline": "Nambiar District 25 | 2 & 3 BHK Luxury Apartments off Sarjapur Road",
-              "description": "Nambiar District 25, A 210 Acres Integrated Township off Sarjapur Road. Premium 2 & 3 BHK luxury apartments with a 7 Acres clubhouse. MAHARERA: TBD.",
+              "headline": "Nambiar District 25 | 2, 3 & 4 BHK Luxury Apartments off Sarjapur Road",
+              "description": "Nambiar District 25, A 210 Acres Integrated Township off Sarjapur Road. Premium 2, 3 & 4 BHK luxury apartments with a 7 Acres clubhouse. MAHARERA: TBD.",
               "image": "https://prestigepalmcourtmahalaxmi.in/_next/image?url=%2Fimages%2Fhero%2Fbanner1.webp&w=1200&q=75",
               "author": {
                 "@type": "Organization",

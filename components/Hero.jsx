@@ -364,10 +364,10 @@ const Hero = ({ setIsOpen }) => {
         {/* Bullet Points */}
         <div className="hero-bullets" style={{ marginBottom: '24px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
           {[
-            '210 Acres Integrated Township',
-            'Phase 3 Launch | 8 Towers',
-            '7 Acres of state of the art clubhouse',
-            '20% Greenery with over 3500+ trees'
+            '200+ Acres Integrated Township',
+            'Get Phase 3 Price Sheet',
+            '2.5 Lakh Sq.Ft. Lifestyle & Clubhouse',
+            '40% Mother Earth Untouched 3500 Native Trees'
           ].map((text, i) => (
             <div key={i} className="hero-bullet-item" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand, #C9A96E)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, backgroundColor: '#fff', borderRadius: '50%', padding: '2px' }}>
@@ -382,7 +382,7 @@ const Hero = ({ setIsOpen }) => {
 
         {/* Restored Subtitle */}
         <p className="hero-price-line" style={{ marginBottom: '0px' }}>
-          2 &amp; 3 BHK Luxury Apartments
+          2, 3 &amp; 4 BHK Luxury Apartments
         </p>
 
         {/* CTA Row */}

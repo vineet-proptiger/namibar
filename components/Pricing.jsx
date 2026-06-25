@@ -30,6 +30,19 @@ const units = [
       "Luxury Finishes",
     ],
     isPopular: true,
+  },
+  {
+    type: "4 BHK Residences",
+    size: "On Request",
+    price: "Ask For Price",
+    oldPrice: null,
+    btnText: "Get Details",
+    features: [
+      "Super Built-up: On Request",
+      "Premium Specifications",
+      "Luxury Finishes",
+    ],
+    isPopular: false,
   }
 ];
 
@@ -79,7 +92,7 @@ const Pricing = ({ setIsOpen }) => {
           </p> */}
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-6xl mx-auto">
           {units.map((unit, idx) => (
             <div
               key={idx}

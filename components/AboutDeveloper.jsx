@@ -128,28 +128,15 @@ const AboutDeveloper = ({ setIsOpen }) => (
     <div className="container mx-auto px-4 md:px-8">
 
       {/* Heading */}
-      <div className="text-center mb-10" data-aos="fade-up">
-        <span style={{
-          display: 'inline-block', padding: '4px 16px',
-          background: 'var(--color-gold-bg)', borderRadius: '50px',
-          fontSize: '11px', fontWeight: '700', color: 'var(--color-gold)',
-          fontFamily: F_JOST, letterSpacing: '0.1em', textTransform: 'uppercase',
-          border: '1px solid var(--color-gold-light)', marginBottom: '10px',
-        }}>Developer Profile</span>
+      <div style={{ textAlign: 'center', marginBottom: '40px' }} data-aos="fade-up">
         <h2 style={{
-          fontFamily: F_JOST, fontWeight: '800', fontSize: '26px',
-          color: PRIMARY, margin: '0 0 8px', letterSpacing: '-0.01em',
-          textTransform: 'uppercase'
+          fontFamily: "var(--font-jost), Montserrat, sans-serif", fontWeight: '700', fontSize: '17px',
+          color: '#684C1B', letterSpacing: '0.1em',
+          textTransform: 'uppercase', margin: 0,
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
         }}>
           About the Developer
         </h2>
-        <div style={{ display: 'flex', justifyContent: 'center', marginTop: '10px' }}>
-          <span style={{
-            display: 'block', width: '40px', height: '3px',
-            background: 'linear-gradient(90deg, var(--color-gold), var(--color-gold-light))',
-            borderRadius: '2px',
-          }} />
-        </div>
       </div>
 
       {/* Two Column Layout */}

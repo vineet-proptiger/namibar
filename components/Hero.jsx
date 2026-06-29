@@ -30,18 +30,9 @@ const Hero = ({ setIsOpen }) => {
           display: block;
         }
 
-        /* Dark gradient overlay — bottom heavy so text is legible */
+        /* Disable full-screen overlay since gradient is only behind text */
         .hero-overlay {
-          position: absolute;
-          inset: 0;
-          background: linear-gradient(
-            to right,
-            rgba(0,0,0,0.72) 0%,
-            rgba(0,0,0,0.45) 55%,
-            rgba(0,0,0,0.10) 100%
-          );
-          z-index: 2;
-          pointer-events: none;
+          display: none;
         }
 
         /* Content block — sits over the image */
@@ -49,9 +40,17 @@ const Hero = ({ setIsOpen }) => {
           position: absolute;
           bottom: 0;
           left: 0;
-          right: 0;
           z-index: 10;
-          padding: 0 44px 72px;
+          padding: 110px 140px 72px 44px;
+          width: 100%;
+          max-width: 800px; /* Only as wide as the text area */
+          background: radial-gradient(
+            100% 100% at 0% 100%,
+            rgba(0,0,0,0.95) 0%,
+            rgba(0,0,0,0.7) 55%,
+            rgba(0,0,0,0.2) 75%,
+            transparent 90%
+          );
         }
 
         /* Main title */
@@ -310,8 +309,8 @@ const Hero = ({ setIsOpen }) => {
         }
       `}} />
 
-      {/* ── Desktop Carousel ── */}
-      <div className="hero-slider-wrapper hidden md:grid">
+      {/* ── Carousel for all devices ── */}
+      <div className="hero-slider-wrapper grid">
         {slides.map((slide, index) => (
           <div 
             key={index} 
@@ -329,21 +328,6 @@ const Hero = ({ setIsOpen }) => {
             />
           </div>
         ))}
-      </div>
-
-      {/* ── Mobile Static Image ── */}
-      <div className="hero-slider-wrapper grid md:hidden">
-        <div className="slide-layer active" style={{ gridArea: '1 / 1 / 2 / 2' }}>
-          <Image
-            src="/images/hero/smDevice.webp"
-            alt="Nambiar District 25 Mobile Banner"
-            width={768}
-            height={800}
-            className="hero-image"
-            priority={true}
-            sizes="100vw"
-          />
-        </div>
       </div>
 
       {/* ── Dark overlay for text legibility ── */}

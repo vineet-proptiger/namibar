@@ -168,7 +168,6 @@ const Pricing = ({ setIsOpen }) => {
             ))}
           </div>
         </div>
-
       </div>
     </section>
   );

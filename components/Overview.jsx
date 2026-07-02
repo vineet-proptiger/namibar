@@ -42,10 +42,10 @@ const CurvedCorners = ({ bg = '#fff' }) => {
 }
 
 const infoItems = [
-  { label: 'Project Area',   value: '210 Acres Integrated Township', bgColor: '#FDF8F6' },
-  { label: 'Total Towers',   value: '8 Towers - Phase 3', bgColor: '#FFFDF2' },
-  { label: 'Structure',      value: '3B + G + 36/37/38 Floors', bgColor: '#F4FAF4' },
-  { label: 'Clubhouse',      value: '7 Acres of state of the art clubhouse', bgColor: '#F2FAFD' },
+  { label: 'Largest Township',   value: '200+ Acres Integrated Development', bgColor: '#FDF8F6' },
+  { label: 'Grand Clubhouse',    value: '2.5 Lakh\u00A0Sq.Ft. Lifestyle Hub', bgColor: '#FFFDF2' },
+  { label: 'Nature Living',      value: '40% Greens & 3,500+ Native Trees', bgColor: '#F4FAF4' },
+  { label: 'Future Connectivity',value: 'Upcoming Muthanallur Metro', bgColor: '#F2FAFD' },
 ]
 
 const Overview = ({ setIsOpen }) => (
@@ -86,15 +86,7 @@ const Overview = ({ setIsOpen }) => (
             marginTop: 0, marginBottom: '20px',
             textAlign: 'justify',
           }}>
-            <strong>District 25 Phase 3</strong> is a premium integrated township in Bengaluru, offering thoughtfully designed villa-style skyrise residences that blend luxury, comfort, and privacy. Recognized as the <strong>Times Integrated Township of the Year 2025</strong>, the community is planned with expansive green spaces, seamless connectivity, and modern infrastructure for an elevated lifestyle.
-          </p>
-          <p style={{
-            fontFamily: F_SANS, fontSize: '14.5px', color: '#4A4540',
-            lineHeight: 1.9,
-            marginTop: 0, marginBottom: '20px',
-            textAlign: 'justify',
-          }}>
-            Spread across a nature-inspired township, the project features nearly <strong>40% open spaces, 3,500+ proposed native trees</strong>, and a vibrant green environment that promotes healthier living. Spacious residences are designed with abundant natural light, cross ventilation, and enhanced privacy, while the <strong>7-acre lifestyle clubhouse</strong> offers world-class recreational and social amenities for residents of all ages.
+            <strong>Nambiar District 25 Phase 3</strong> is part of <strong>Sarjapur Bangalore's largest integrated township, spanning 200+ acres</strong> and designed to deliver a premium lifestyle surrounded by expansive green spaces. Offering <strong>2, 3 & 4 BHK luxury residences, the project features villa-style sky homes, a 2.5 lakh sq.ft. clubhouse, and world-class amenities for every generation. Strategically located near Electronic City</strong> with seamless access to major IT hubs, it is also close to the <strong>upcoming Muthanallur Metro Station</strong>, ensuring excellent future connectivity. Experience resort-style living, abundant open spaces, and a community where luxury, convenience, and nature come together in one iconic destination.
           </p>
 
           {/* Info Box */}

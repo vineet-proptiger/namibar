@@ -117,7 +117,7 @@ const IconWaves = () => (
 )
 
 const highlights = [
-  { title: '63+ ACRE TOWNSHIP', desc: 'Sprawling integrated township off Sarjapur Road offering a holistic living experience.', Icon: IconHome },
+  { title: '200+ ACRE TOWNSHIP', desc: 'Sprawling integrated township off Sarjapur Road offering a holistic living experience.', Icon: IconHome },
   { title: '7-ACRE CLUBHOUSE', desc: 'An expansive clubhouse featuring world-class recreational, fitness, and social amenities.', Icon: IconBuilding },
   { title: '40% GREEN OPEN SPACES', desc: 'Enjoy lush green surroundings with over 3,500 native trees for a serene environment.', Icon: IconTrees },
   { title: 'VILLA-STYLE SKYRISES', desc: 'Premium 2, 2.5, 3 & 4 BHK residences offering unparalleled privacy and comfort.', Icon: IconMountain },

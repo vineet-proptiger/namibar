@@ -343,7 +343,7 @@ const Hero = ({ setIsOpen }) => {
 
         {/* Subtitle */}
         <p className="hero-subtitle">
-          <span style={{ fontSize: '0.85em', fontWeight: 500, textTransform: 'none' }}>off Sarjapur Road</span>
+          <span style={{ fontSize: '0.85em', fontWeight: 500, textTransform: 'none' }}>Phase 3 off Sarjapur Road</span>
         </p>
         {/* Bullet Points */}
         <div className="hero-bullets" style={{ marginBottom: '24px', display: 'flex', flexDirection: 'column', gap: '8px' }}>

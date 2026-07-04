@@ -349,9 +349,9 @@ const Hero = ({ setIsOpen }) => {
         <div className="hero-bullets" style={{ marginBottom: '24px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
           {[
             '200+ Acres Integrated Township',
-            'Get Phase 3 Price Sheet',
             '2.5 Lakh Sq.Ft. Lifestyle & Clubhouse',
-            '40% Mother Earth Untouched 3500 Native Trees'
+            '40% Mother Earth Untouched 3500 Native Trees',
+            '20 Acres dedicated sports arena with FIFA size Football court'
           ].map((text, i) => (
             <div key={i} className="hero-bullet-item" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-brand, #C9A96E)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, backgroundColor: '#fff', borderRadius: '50%', padding: '2px' }}>

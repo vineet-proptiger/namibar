@@ -5,7 +5,6 @@ export default function robots() {
       allow: '/',
       disallow: '',
     },
-    sitemap: 'http://nambiardistrict25sarjapur.co.in/sitemap.xml',
+    sitemap: 'https://nambiardistrict25sarjapur.co.in/sitemap.xml',
   }
 }
-

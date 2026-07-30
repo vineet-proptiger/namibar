@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const base = 'http://nambiardistrict25sarjapur.co.in'
+  const base = 'https://nambiardistrict25sarjapur.co.in'
 
   return [
     {
